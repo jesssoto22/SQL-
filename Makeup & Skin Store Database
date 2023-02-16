@@ -1,0 +1,17 @@
+CREATE TABLE STORE( id integer, item text, price integer, aisle integer, quantity integer, color text);
+INSERT into store values ( 1, "FALSE LASHES", 6, 3, 9, "black");
+insert into store values (2, "sunscreen", 7, 2, 7, "white");
+insert into store values (3, "makeup remover", 8, 2, 10,"white");
+insert into store values (4, "shampoo treatment", 25, 5, 3, "red");
+insert into store values (5, "acne treatment", 18, 2, 7, "blue");
+insert into store values (6, "nail polish", 3, 6, 20, "rainbow");
+insert into store values (7, "exfoliating gloves", 10, 5, 11, "baby pink");
+insert into store values (8, "dolce de gabanna perfume", 85, 7, 4, "blue");
+insert into store values (9, "face mask", 6, 2, 8, "yellow");
+insert into store values (10, "tweezers", 2, 6, 7, "gray");
+insert into store values (11, "lipstick", 12, 3, 9, "red");
+insert into store values (12, "the ordinary", 10, 2, 1, "clear");
+insert into store values (13, "comfy socks", 5, 9, 4, "orange");
+insert into store values (14, "hair dryer", 40, 5, 6, "purple");
+insert into store values (15, "travel size hand sanitizer", 2, 6, 30, "clear");
+SELECT * FROM STORE;
